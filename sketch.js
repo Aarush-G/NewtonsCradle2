@@ -16,6 +16,13 @@ function setup() {
 
 	engine = Engine.create();
 	world = engine.world;
+	
+	let canvasmouse=Mouse.create(canvas.elt);
+     canvasmouse.pixelRatio=pixelDensity();
+     
+     var options={
+       mouse:canvasmouse
+     }
 
 	roofObject=new Roof(width/2,height/4,width/7,20);
 
