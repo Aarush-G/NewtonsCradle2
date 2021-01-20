@@ -94,6 +94,9 @@ function keyPressed() {
   	}
 }
 
+function mouseDragged() {
+	Matter.Body.setPosition(pendulum.body, {x: mouseX, y: mouseY})
+}
 
 function drawLine(constraint)
 {
