@@ -22,7 +22,7 @@ function setup() {
      canvasmouse.pixelRatio=pixelDensity();
      
      var options={
-       mouse:canvasmouse
+       Mouse:canvasmouse
      }
 
 	roofObject=new Roof(width/2,height/4,width/7,20);
